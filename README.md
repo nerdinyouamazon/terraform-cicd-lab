@@ -1,4 +1,4 @@
-# Terraform CI/CD
+# Terraform CI/
 This repository is used to learn Terraform CI/CD with Jenkins.
 
 ## Pipeline
