@@ -1,5 +1,5 @@
 # Terraform CI
-This repository is used to learn Terraform CI/CD with Jenkins.
+This repository is ued to learn Terraform CI/CD with Jenkins.
 
 ## Pipeline
 - GitHub source control
