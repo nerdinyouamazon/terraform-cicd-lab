@@ -26,7 +26,7 @@ jobs:
         run: |
           aws sts get-caller-identity
           - name: Test AWS read-only permission
-        run: |
+        
           aws ec2 describe-regions \
             --region ap-south-1 \
             --query 'Regions[].RegionName' \
