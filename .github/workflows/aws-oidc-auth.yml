@@ -33,3 +33,7 @@ jobs:
             --region ap-south-1 \
             --query 'Regions[].RegionName' \
             --output table
+      - name: Test unauthorized AWS permission
+        run: |
+          aws ec2 describe-instances \
+            --region ap-south-1   
